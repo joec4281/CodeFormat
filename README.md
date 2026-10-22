@@ -94,7 +94,7 @@ Return
 }
 ```
 
-...but I would prefer that the library code be output formatted.
+...but I would prefer that the library code output be formatted.
   
 So, I have developed a C# .NET Framework program,  
 **CodeFormat.exe**,   
