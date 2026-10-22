@@ -206,3 +206,25 @@ Return
 
 }
 ```
+  
+This is how I compiled the **CodeFormat.cs** code to **CodeFormat.exe** on my Windows 10 system;
+
+```dos
+E:\...\CodeFormat>which csc
+csc is an alias : "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe"
+
+E:\...\CodeFormat>csc CodeFormat.cs
+Microsoft (R) Visual C# Compiler version 4.14.0-3.26424.7 (a528c90a)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+E:\...\CodeFormat>dir codeformat.exe
+
+ Volume in drive E is New Volume   Serial number is 2c1e:6e61
+ Directory of  E:\Documents\GitHub\CodeFormat\codeformat.exe
+
+2026-10-22  10:33           7,680  CodeFormat.exe
+               7,680 bytes in 1 file and 0 dirs    8,192 bytes allocated
+   1,299,130,318,848 bytes free
+```
+
